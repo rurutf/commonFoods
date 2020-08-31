@@ -12,7 +12,7 @@ html {
 
 body {
     margin: 0;
-    font-family: 'CothamSans', sans-serif;
+    font-family: 'Jura', sans-serif;
     font-size: 1rem;
     line-height: 1.6;
 }
@@ -249,32 +249,6 @@ ul {
     position: relative;
     z-index: 5;
 }
-
-/* .btn.with-border:before {
-    border: 2px solid #000;
-    display: block;
-    width: 100%;
-    height: 100%;
-    content: '';
-    z-index: 5;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-.btn-with-border:after {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    content: '';
-    left: 6px;
-    top: 6px;
-    z-index: 1;
-
-}
-.btn.red:after {
-    background-color: var(--orange);
-}
- */
 .group {
     margin-top: 60px;
     padding-left: 80px;
@@ -401,6 +375,81 @@ ul {
     font-size: 27px;
 }
 
+
+
+/* ===============================
+
+
+
+-----------OUR STORY.HTML---------
+
+
+
+================================== */
+img {
+    max-width: 100%;
+}
+.our-story-one {
+    margin-bottom: 50px;
+}
+.row__story {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 60px;
+}
+.text-box {
+    position: absolute;
+    left: 10%;
+    top: 100px;
+    width: 55%;
+}
+.text-box h3 {
+    font-family: 'Jura', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    margin: 25px 0;
+}
+.story-one__img {
+    width: 60%;
+}
+.story__paragraph {
+    margin-left: 10%;
+    font-family: 'Jura', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: justify;
+}
+.aside {
+    flex-basis: 80%;
+    padding: 50px 0 0 50px;
+    margin-right: 60px;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.bottom-part {
+    padding-top: 30px;
+    display: flex;
+    margin-left: 10%;
+}
+
+.user {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* ==================================
 ---------------@MEDIA-------------
 ================================== */
@@ -409,22 +458,9 @@ ul {
         max-width: 1140px;
     }
 }
-/* @media (min-width: 992px) {
-    .container {
-        max-width: 960px;
-    }
-} */
-
 @media (min-width: 768px) {
     .navbar-toggle {
         display: none;
     }
-/*     .container {
-        max-width: 720px;
-    } */
-}
-/* @media (min-width: 576px) {
-    .container {
-        max-width: 540px;
-    }
-} */
+
+
