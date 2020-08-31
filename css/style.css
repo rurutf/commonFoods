@@ -56,7 +56,9 @@ h1 {
 ul {
     padding: 0;
 }
-
+figure {
+    margin: 0;
+}
 /* ==================================
 ---------------HEADER-------------
 ================================== */
@@ -412,7 +414,14 @@ img {
 .story-one__img {
     width: 60%;
 }
+.right-img {
+    max-width: 150px;
+    position: absolute;
+    top: 17%;
+    right: 0;
+}
 .story__paragraph {
+    width: 80%;
     margin-left: 10%;
     font-family: 'Jura', sans-serif;
     font-size: 20px;
@@ -421,12 +430,15 @@ img {
     text-align: justify;
 }
 .aside {
-    flex-basis: 80%;
-    padding: 50px 0 0 50px;
+    flex-basis: 70%;
+    padding-left: 50px;
     margin-right: 60px;
     font-size: 20px;
     line-height: 1.5;
     font-weight: 400;
+}
+.aside p {
+    width: 85%;
 }
 .bottom-part {
     padding-top: 30px;
